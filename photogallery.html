@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="gallery.js" defer></script>
+    <title>Riannator Photo Gallery</title>
+  </head>
+  <body>
+    <div
+      class="flex flex-col items-center justify-center min-h-screen bg-zinc-800"
+    >
+      <!-- Year Selection -->
+      <div
+        class="fixed top-0 left-0 right-0 bg-zinc-800 bg-opacity-90 text-center py-4 z-10"
+      >
+        <div class="flex justify-center space-x-8">
+          <span class="text-white cursor-pointer" onclick="showYear('2024')"
+            >2024</span
+          >
+          <span class="text-white cursor-pointer" onclick="showYear('2023')"
+            >2023</span
+          >
+        </div>
+      </div>
+      <!-- First Row -->
+      <div
+        class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4 md:mb-4 mt-20"
+      >
+        <img
+          src="images/IMG_0135.JPG"
+          class="w-96 rounded-lg 2024"
+          alt="Photograph"
+        />
+        <img
+          src="images/IMG_0195.JPG"
+          class="w-96 rounded-lg 2024"
+          alt="Photograph"
+        />
+        <img
+          src="images/IMG_3121.JPG"
+          class="w-96 rounded-lg 2024"
+          alt="Photograph"
+        />
+      </div>
+      <!-- Second Row -->
+      <div
+        class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4 md:mb-4"
+      >
+        <img
+          src="images/IMG_2689.JPG"
+          class="w-96 rounded-lg 2024"
+          alt="Photograph"
+        />
+        <img
+          src="images/IMG_2832.JPG"
+          class="w-96 rounded-lg 2024"
+          alt="Photograph"
+        />
+        <img
+          src="images/IMG_3136.JPG"
+          class="w-96 rounded-lg 2024"
+          alt="Photograph"
+        />
+      </div>
+      <!-- Third Row -->
+      <div
+        class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4 md:mb-4"
+      >
+        <img
+          src="images/IMG_2862.JPG"
+          class="w-96 rounded-lg 2024"
+          alt="Photograph"
+        />
+        <img
+          src="images/IMG_2364.JPG"
+          class="w-96 rounded-lg 2024"
+          alt="Photograph"
+        />
+        <img
+          src="images/IMG_1532.JPG"
+          class="w-96 rounded-lg 2023"
+          alt="Photograph"
+        />
+      </div>
+      <!-- Forth Row -->
+      <div
+        class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4 md:mb-4"
+      >
+        <img
+          src="images/IMG_1384.JPG"
+          class="w-96 rounded-lg 2023"
+          alt="Photograph"
+        />
+        <img
+          src="images/IMG_1480.JPG"
+          class="w-96 rounded-lg 2023"
+          alt="Photograph"
+        />
+        <img
+          src="images/IMG_3151.JPG"
+          class="w-96 rounded-lg 2024"
+          alt="Photograph"
+        />
+      </div>
+    </div>
+  </body>
+</html>
